@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;0,700;1,400&display=swap");
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+hmtl,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  background: #3d3d3d;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: bold;
+  margin: 0 0 70px;
+  color: #ffffff;
+}
+
+img {
+  width: 300px !important;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.transition {
+  position: absolute;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+}
+
+.transition li {
+  width: 20%;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  background: #fffffe;
+}
+
+header {
+  padding: 20px;
+}
+
+header nav {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul li {
+  margin-right: 20px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: calc(100vh - 59px);
+  max-width: 992px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+main > * {
+  width: 50%;
+}
+
+main .headline {
+  padding-right: 60px;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 20px 24px;
+  display: inline-block;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=style.css.map */
